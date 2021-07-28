@@ -2,5 +2,6 @@ module AdminDashBoardUI {
     requires javafx.fxml;
     requires javafx.controls;
 
-    opens sample;
+    opens Home;
+    opens Home.Controllers;
 }

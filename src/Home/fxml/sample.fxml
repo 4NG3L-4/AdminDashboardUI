@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="733.0" style="-fx-background-color: #E1FFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="-10.0" layoutY="-8.0" prefHeight="527.0" prefWidth="189.0" style="-fx-background-color: #072F5F;" />
+      <VBox layoutX="179.0" prefHeight="46.0" prefWidth="555.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <BottomNavigationButton alignment="TOP_CENTER" contentDisplay="CENTER" minWidth="34.0" prefHeight="30.0" prefWidth="34.0" style="-fx-background-color: #FFFFFF;">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" top="10.0" />
+               </padding>
+               <graphic>
+                  <Icon centerShape="false" content="HELP_OUTLINE" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="35.0" scaleShape="false" style="-fx-border-color: #000000;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Icon>
+               </graphic>
+            </BottomNavigationButton>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="188.0" layoutY="156.0" prefHeight="200.0" prefWidth="336.0" style="-fx-background-color: #FFFFFF;" />
+      <AnchorPane layoutX="537.0" layoutY="90.0" prefHeight="419.0" prefWidth="182.0" style="-fx-background-color: #FFFFFF;" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fill="#1261a0" layoutX="190.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Overview">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="190.0" layoutY="93.0" prefHeight="46.0" prefWidth="105.0" style="-fx-background-color: #FFFFFF;" />
+      <AnchorPane layoutX="304.0" layoutY="93.0" prefHeight="46.0" prefWidth="105.0" style="-fx-background-color: #FFFFFF;" />
+      <AnchorPane layoutX="418.0" layoutY="93.0" prefHeight="46.0" prefWidth="105.0" style="-fx-background-color: #FFFFFF;" />
+      <AnchorPane layoutX="188.0" layoutY="366.0" prefHeight="142.0" prefWidth="336.0" style="-fx-background-color: #1261A0;" />
+   </children>
+</AnchorPane>
